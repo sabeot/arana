@@ -1,9 +1,9 @@
 <template>
   <div>
     <h1>Arana - powered by Nuxt3</h1>
-    <PageHeaderComponent>
-      This is an auto-imported component.
-    </PageHeaderComponent>
-    <NuxtLink to="/about">About</NuxtLink>
+    <p><NuxtLink to="/about">About</NuxtLink></p>
   </div>
 </template>
+<style lang="scss" scoped>
+@import "../assets/scss/pages/index.scss";
+</style>

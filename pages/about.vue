@@ -1,7 +1,9 @@
 <template>
   <div>
-    <section class="about-section">About us page</section>
-    <button @click="createAccount">Create Account</button>
+    <h1 class="about-section">About us page</h1>
+    <p>
+      <button @click="createAccount">Create Account</button>
+    </p>
     <NuxtLink to="/">Dashboard</NuxtLink>
   </div>
 </template>
