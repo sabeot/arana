@@ -1,6 +1,10 @@
+html {
+    margin: 0; 
+    padding: 0; 
+    scroll-behavior: smooth;
+}
 body {
     font-family: "Source Sans Pro", sans-serif;
-    font-weight: 300;
     background-color: $pageBackgroundColor;
     color: $pageFontColor;
 }
@@ -18,4 +22,12 @@ a:visited:hover {
 
 h1 {
     color: $primary;
+}
+
+#__nuxt{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
 }
