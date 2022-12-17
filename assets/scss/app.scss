@@ -1,3 +1,5 @@
+@import 'bootstrap/scss/bootstrap';
+
 html {
     margin: 0; 
     padding: 0; 
@@ -22,6 +24,14 @@ a:visited:hover {
 
 h1 {
     color: $primary;
+}
+
+.app {
+    padding-top: 4.5rem;
+}
+
+.container {
+    margin-top: 1rem;
 }
 
 #__nuxt{

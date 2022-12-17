@@ -8,12 +8,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@types/bootstrap": "^5.2.6",
     "@volar-plugins/vetur": "latest",
     "nuxt": "3.0.0-rc.13",
     "sass": "^1.56.1",
     "sass-loader": "^13.1.0"
   },
   "dependencies": {
-    "appwrite": "^10.1.0"
+    "@popperjs/core": "^2.11.6",
+    "appwrite": "^10.1.0",
+    "bootstrap": "5.2.3"
   }
 }
