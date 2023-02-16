@@ -1,49 +1,49 @@
-@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/scss/bootstrap";
 
 html {
-    margin: 0; 
-    padding: 0; 
-    scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 body {
-    font-family: "Source Sans Pro", sans-serif;
-    background-color: $pageBackgroundColor;
-    color: $pageFontColor;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: $pageBackgroundColor;
+  color: $pageFontColor;
 }
 
-a:link, 
+a:link,
 a:visited {
-    color: $pageHrefColorVistited;
-    text-decoration: none;
+  color: $pageHrefColorVistited;
+  text-decoration: none;
 }
 a:hover,
 a:visited:hover {
-    color: $pageHrefColorHoover;
-    text-decoration: none;
+  color: $pageHrefColorHoover;
+  text-decoration: none;
 }
 
 h1 {
-    color: $primary;
+  color: $primary;
 }
 
 .app {
-    padding-top: 4.5rem;
+  padding-top: 4.5rem;
 }
 
 .container {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 
-#__nuxt{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200%;
+#__nuxt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
 }
 
 .content {
-    display: flex;
-    flex-direction: column;
-    padding: .2rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.2rem 1.2rem;
 }
