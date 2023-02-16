@@ -1,24 +1,20 @@
 <template>
   <div class="container">
     <h1>Arana - powered by Nuxt3</h1>
-    <p>
-      <button type="button" class="btn btn-primary" @click="goTo('/about')">About</button>
-      <!-- <NuxtLink to="/about">About</NuxtLink> -->
-      </p>
-      <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-primary">Left</button>
-        <button type="button" class="btn btn-primary">Middle</button>
-        <button type="button" class="btn btn-primary">Right</button>
-      </div>
-    <div>
-      {{ appMessageStore.messages }}
-    </div>
-    <button type="button" @click="riseMessage()" name="message">
+    <button type="button" class="btn btn-primary" @click="goTo('/about')">About</button>
+
+    <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-primary" @click="riseMessage()" name="message">
       Add message to queue
     </button>
-    <button type="button" @click="clearMessages()">
+    <button type="button" class="btn btn-secondary" @click="clearMessages()">
       Delete Messages
     </button>
+    </div>
+
+    <div v-for="message in appMessageStore.messages">
+      {{ message.message }}
+    </div>
   </div>
 </template>
 <script lang="ts" setup>
